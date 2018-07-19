@@ -14,7 +14,6 @@ class RegisterView(CreateView):
     template_name = 'accounts/register.html'
     form_class = UserAdminCreationForm
     success_url = reverse_lazy('index')
-    reverse('accounts:register', current_app=self.request.resolver_match.namespace)
 
 
 register = RegisterView.as_view()
