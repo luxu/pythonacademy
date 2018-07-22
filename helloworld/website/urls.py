@@ -4,6 +4,8 @@ from website.views import IndexTemplateView, ComercioListView, ComercioCreateVie
 
 from django.urls import path
 
+app_name = "website"
+
 urlpatterns = [
     # GET /
     path('',

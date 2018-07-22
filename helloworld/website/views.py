@@ -16,7 +16,7 @@ class IndexTemplateView(TemplateView):
 # ----------------------------------------------
 
 class ComercioListView(ListView):
-    template_name = "lista_comercios.html"
+    template_name = "website/lista_comercios.html"
     model = Comercio
     context_object_name = "comercios"
     paginate_by = 5
@@ -115,7 +115,7 @@ class ComercioDeleteView(DeleteView):
 # ----------------------------------------------
 
 class GastoListView(ListView):
-    template_name = "lista_gastos.html"
+    template_name = "website/lista_gastos.html"
     model = Gasto
     context_object_name = "gastos"
     paginate_by = 5
