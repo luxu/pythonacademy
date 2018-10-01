@@ -1,2 +1,6 @@
 venv/
 __pycache__
+helloworld/db.sqlite3
+helloworld/accounts/__pycache__/
+helloworld/core/__pycache__/
+__pycache__/
